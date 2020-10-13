@@ -5,3 +5,13 @@ Person		|
 Bike		| working_bike?
 |
 docking_Station	| release_bike
+
+
+
+Objects			Messages
+
+Person		| 
+|
+Bike		| see_bike
+|
+docking_Station	| dock_bike
