@@ -23,4 +23,10 @@ RSpec.describe DockingStation do
     end
   end
 
+  describe "#check_availability" do
+    it "Checks if there are any bikes available" do
+      expect {subject.check_availability}.to raise_error("Sorry. There are no bikes available.")
+    end
+  end
+
 end
